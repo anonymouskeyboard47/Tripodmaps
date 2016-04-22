@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/Helpers
+END
+DrawHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/Helpers/DrawHelper.cs
+END
+DockHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/Helpers/DockHelper.cs
+END
+Win32Helper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/Helpers/Win32Helper.cs
+END
+ResourceHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/Helpers/ResourceHelper.cs
+END

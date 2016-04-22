@@ -1,0 +1,9 @@
+E:\Software\Codeproject\ToolboxPanel\v3_DockPanelSuite\svn\trunk\WinFormsUI\bin\Debug\license.txt
+E:\Software\Codeproject\ToolboxPanel\v3_DockPanelSuite\svn\trunk\WinFormsUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\Software\Codeproject\ToolboxPanel\v3_DockPanelSuite\svn\trunk\WinFormsUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+E:\Software\Codeproject\ToolboxPanel\v3_DockPanelSuite\svn\trunk\WinFormsUI\obj\Debug\ResolveAssemblyReference.cache
+E:\Software\Codeproject\ToolboxPanel\v3_DockPanelSuite\svn\trunk\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.Resources.resources
+E:\Software\Codeproject\ToolboxPanel\v3_DockPanelSuite\svn\trunk\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.Strings.resources
+E:\Software\Codeproject\ToolboxPanel\v3_DockPanelSuite\svn\trunk\WinFormsUI\obj\Debug\WinFormsUI.csproj.GenerateResource.Cache
+E:\Software\Codeproject\ToolboxPanel\v3_DockPanelSuite\svn\trunk\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\Software\Codeproject\ToolboxPanel\v3_DockPanelSuite\svn\trunk\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.pdb

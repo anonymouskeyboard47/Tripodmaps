@@ -1,0 +1,1329 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9B44F499-6935-4FD7-8078-4FAEEEDA1CF4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tripodmaps</RootNamespace>
+    <AssemblyName>Tripodmaps</AssemblyName>
+    <StartupObject>Tripodmaps.Program</StartupObject>
+    <ApplicationIcon>TripodsystemsIcon2.ico</ApplicationIcon>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>tripapi.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/egis/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SignManifests>true</SignManifests>
+    <ManifestCertificateThumbprint>12EA1919D64FDAEB7A8A12D7B098DAC42DD15C41</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Tripodmaps.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>About.resx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutDialog.designer.cs">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customization\DockHelper.cs" />
+    <Compile Include="Customization\Extender.cs" />
+    <Compile Include="Customization\InertButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Customization\Resources.Designer.cs" />
+    <Compile Include="Customization\Strings.Designer.cs" />
+    <Compile Include="Customization\VS2003AutoHideStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Customization\VS2003DockPaneCaption.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Customization\VS2003DockPaneStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DummyDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DummyDoc.designer.cs">
+      <DependentUpon>DummyDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DummyOutputWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DummyOutputWindow.designer.cs">
+      <DependentUpon>DummyOutputWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DummyPropertyWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DummyPropertyWindow.designer.cs">
+      <DependentUpon>DummyPropertyWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DummySolutionExplorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DummySolutionExplorer.designer.cs">
+      <DependentUpon>DummySolutionExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DummyTaskList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DummyTaskList.designer.cs">
+      <DependentUpon>DummyTaskList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DummyToolbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DummyToolbox.designer.cs">
+      <DependentUpon>DummyToolbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBilling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBilling.Designer.cs">
+      <DependentUpon>frmBilling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDocuments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDocuments.Designer.cs">
+      <DependentUpon>frmDocuments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLargeDocumentViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLargeDocumentViewer.Designer.cs">
+      <DependentUpon>frmLargeDocumentViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrders.Designer.cs">
+      <DependentUpon>frmOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPropertyFinder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFind.Designer.cs">
+      <DependentUpon>frmFind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAjaxLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAjaxLoading.Designer.cs">
+      <DependentUpon>frmAjaxLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAssetParts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssetParts.Designer.cs">
+      <DependentUpon>frmAssetParts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAssetTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssetTypes.Designer.cs">
+      <DependentUpon>frmAssetTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuildings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuildings.Designer.cs">
+      <DependentUpon>frmBuildings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuildingTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuildingTypes.Designer.cs">
+      <DependentUpon>frmBuildingTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomers.designer.cs">
+      <DependentUpon>frmCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDocumentTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDocumentTypes.Designer.cs">
+      <DependentUpon>frmDocumentTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIDTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIDTypes.Designer.cs">
+      <DependentUpon>frmIDTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLandParcels.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLandParcels.Designer.cs">
+      <DependentUpon>frmLandParcels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddresses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddresses.Designer.cs">
+      <DependentUpon>frmAddresses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPointTypesMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPointTypesMaster.designer.cs">
+      <DependentUpon>frmPointTypesMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRoadClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRoadClass.Designer.cs">
+      <DependentUpon>frmRoadClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRoomAmenityTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRoomAmenityTypes.Designer.cs">
+      <DependentUpon>frmRoomAmenityTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRoomTypeMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRoomTypeMaster.Designer.cs">
+      <DependentUpon>frmRoomTypeMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSearch.designer.cs">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsageMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsageMaster.Designer.cs">
+      <DependentUpon>frmUsageMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Licence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Licence.Designer.cs">
+      <DependentUpon>Licence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="About.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>About.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutDialog.resx">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customization\Resources.resx" />
+    <EmbeddedResource Include="Customization\Strings.resx" />
+    <EmbeddedResource Include="DummyDoc.resx">
+      <DependentUpon>DummyDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DummyOutputWindow.resx">
+      <DependentUpon>DummyOutputWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DummyPropertyWindow.resx">
+      <DependentUpon>DummyPropertyWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DummySolutionExplorer.resx">
+      <DependentUpon>DummySolutionExplorer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DummyTaskList.resx">
+      <DependentUpon>DummyTaskList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DummyToolbox.resx">
+      <DependentUpon>DummyToolbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBilling.resx">
+      <DependentUpon>frmBilling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDocuments.resx">
+      <DependentUpon>frmDocuments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLargeDocumentViewer.resx">
+      <DependentUpon>frmLargeDocumentViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrders.resx">
+      <DependentUpon>frmOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPropertyFinder.resx">
+      <DependentUpon>frmPropertyFinder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFind.resx">
+      <DependentUpon>frmFind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAjaxLoading.resx">
+      <DependentUpon>frmAjaxLoading.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssetParts.resx">
+      <DependentUpon>frmAssetParts.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssetTypes.resx">
+      <DependentUpon>frmAssetTypes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuildings.resx">
+      <DependentUpon>frmBuildings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuildingTypes.resx">
+      <DependentUpon>frmBuildingTypes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomers.resx">
+      <DependentUpon>frmCustomers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDocumentTypes.resx">
+      <DependentUpon>frmDocumentTypes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIDTypes.resx">
+      <DependentUpon>frmIDTypes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLandParcels.resx">
+      <DependentUpon>frmLandParcels.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddresses.resx">
+      <DependentUpon>frmAddresses.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPointTypesMaster.resx">
+      <DependentUpon>frmPointTypesMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRoadClass.resx">
+      <DependentUpon>frmRoadClass.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRoomAmenityTypes.resx">
+      <DependentUpon>frmRoomAmenityTypes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRoomTypeMaster.resx">
+      <DependentUpon>frmRoomTypeMaster.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearch.resx">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsageMaster.resx">
+      <DependentUpon>frmUsageMaster.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Licence.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Licence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecordAttributesForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RecordAttributesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolWindow.resx">
+      <DependentUpon>ToolWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripodMainForm.resx">
+      <DependentUpon>TripodMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RecordAttributesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecordAttributesForm.Designer.cs">
+      <DependentUpon>RecordAttributesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ncConstructor\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ncSearchGeo\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="ToolWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolWindow.designer.cs">
+      <DependentUpon>ToolWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripodMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripodMainForm.designer.cs">
+      <DependentUpon>TripodMainForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Customization\Resources\DockIndicator_PaneDiamond.bmp" />
+    <Content Include="Customization\Resources\DockIndicator_PaneDiamond_Bottom.bmp" />
+    <Content Include="Customization\Resources\Dockindicator_PaneDiamond_Fill.bmp" />
+    <Content Include="Customization\Resources\DockIndicator_PaneDiamond_Hotspot.bmp" />
+    <Content Include="Customization\Resources\DockIndicator_PaneDiamond_HotspotIndex.bmp" />
+    <Content Include="Customization\Resources\DockIndicator_PaneDiamond_Left.bmp" />
+    <Content Include="Customization\Resources\DockIndicator_PaneDiamond_Right.bmp" />
+    <Content Include="Customization\Resources\DockIndicator_PaneDiamond_Top.bmp" />
+    <Content Include="Customization\Resources\DockIndicator_PanelBottom.bmp" />
+    <Content Include="Customization\Resources\DockIndicator_PanelBottom_Active.bmp" />
+    <Content Include="Customization\Resources\DockIndicator_PanelFill.bmp" />
+    <Content Include="Customization\Resources\DockIndicator_PanelFill_Active.bmp" />
+    <Content Include="Customization\Resources\DockIndicator_PanelLeft.bmp" />
+    <Content Include="Customization\Resources\DockIndicator_PanelLeft_Active.bmp" />
+    <Content Include="Customization\Resources\DockIndicator_PanelRight.bmp" />
+    <Content Include="Customization\Resources\DockIndicator_PanelRight_Active.bmp" />
+    <Content Include="Customization\Resources\DockIndicator_PanelTop.bmp" />
+    <Content Include="Customization\Resources\DockIndicator_PanelTop_Active.bmp" />
+    <Content Include="Customization\Resources\DockPaneCaption_AutoHideNo.bmp" />
+    <Content Include="Customization\Resources\DockPaneCaption_AutoHideYes.bmp" />
+    <Content Include="Customization\Resources\DockPaneCaption_CloseDisabled.bmp" />
+    <Content Include="Customization\Resources\DockPaneCaption_CloseEnabled.bmp" />
+    <Content Include="Customization\Resources\DockPaneStrip_CloseDisabled.bmp" />
+    <Content Include="Customization\Resources\DockPaneStrip_CloseEnabled.bmp" />
+    <Content Include="Customization\Resources\DockPaneStrip_ScrollLeftDisabled.bmp" />
+    <Content Include="Customization\Resources\DockPaneStrip_ScrollLeftEnabled.bmp" />
+    <Content Include="Customization\Resources\DockPaneStrip_ScrollRightDisabled.bmp" />
+    <Content Include="Customization\Resources\DockPaneStrip_ScrollRightEnabled.bmp" />
+    <Content Include="DockSample.csproj" />
+    <Content Include="Images\ArrowDown.bmp" />
+    <Content Include="Images\ArrowUp.bmp" />
+    <Content Include="Images\Bitmap.ico" />
+    <Content Include="Images\BlankIcon.ico" />
+    <Content Include="Images\ClosedFolder.ICO" />
+    <Content Include="Images\CSFile.ico" />
+    <Content Include="Images\CSProject.ico" />
+    <Content Include="Images\File.ico" />
+    <Content Include="Images\Form.ico" />
+    <Content Include="Images\Mouse.bmp" />
+    <Content Include="Images\msenv22.ico" />
+    <Content Include="Images\New.ico" />
+    <Content Include="Images\Open.ico" />
+    <Content Include="Images\OpenFolder.ICO" />
+    <Content Include="Images\OutputWindow.ico" />
+    <Content Include="Images\PropertyWindow.ico" />
+    <Content Include="Images\Reference.ico" />
+    <Content Include="Images\References.ico" />
+    <Content Include="Images\SolutionExplorer.ico" />
+    <Content Include="Images\TaskListWindow.ico" />
+    <Content Include="Images\ToolboxWindow.ico" />
+    <Content Include="Images\XmlFile.ico" />
+    <Content Include="license.txt" />
+    <Content Include="Resources\000.png" />
+    <Content Include="Data\countys.dbf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\countys.sbn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\countys.sbx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\countys.shp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\countys.shx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Plots.dbf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Plots.MAPOID.atx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Plots.prj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Plots.sbn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Plots.sbx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Plots.shp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Plots.shx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\pointsofinterest.dbf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\pointsofinterest.prj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\pointsofinterest.sbn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\pointsofinterest.sbx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\pointsofinterest.shp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\pointsofinterest.shx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\railwayline.dbf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\railwayline.lyr">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\railwayline.sbn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\railwayline.sbx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\railwayline.shp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\railwayline.shx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Roads_Merged.dbf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Roads_Merged.prj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Roads_Merged.sbn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Roads_Merged.sbx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Roads_Merged.shp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Roads_Merged.shx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Sublocations.dbf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Sublocations.prj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Sublocations.sbn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Sublocations.sbx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Sublocations.shp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Sublocations.shx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Sublocs.dbf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\world_adm0.dbf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\world_adm0.shp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\world_adm0.shx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Main.trip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\rtk.dbf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\rtk.MAPOID.atx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\rtk.prj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\rtk.sbn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\rtk.sbx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\rtk.shp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\rtk.shx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Customization\.svn\all-wcprops" />
+    <None Include="Customization\.svn\entries" />
+    <None Include="Customization\.svn\text-base\DockHelper.cs.svn-base" />
+    <None Include="Customization\.svn\text-base\Extender.cs.svn-base" />
+    <None Include="Customization\.svn\text-base\InertButton.cs.svn-base" />
+    <None Include="Customization\.svn\text-base\Resources.Designer.cs.svn-base" />
+    <None Include="Customization\.svn\text-base\Resources.resx.svn-base" />
+    <None Include="Customization\.svn\text-base\Strings.Designer.cs.svn-base" />
+    <None Include="Customization\.svn\text-base\Strings.resx.svn-base" />
+    <None Include="Customization\.svn\text-base\VS2003AutoHideStrip.cs.svn-base" />
+    <None Include="Customization\.svn\text-base\VS2003DockPaneCaption.cs.svn-base" />
+    <None Include="Customization\.svn\text-base\VS2003DockPaneStrip.cs.svn-base" />
+    <None Include="Customization\Resources\.svn\all-wcprops" />
+    <None Include="Customization\Resources\.svn\entries" />
+    <None Include="Customization\Resources\.svn\prop-base\DockIndicator_PaneDiamond.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockIndicator_PaneDiamond_Bottom.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\Dockindicator_PaneDiamond_Fill.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockIndicator_PaneDiamond_Hotspot.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockIndicator_PaneDiamond_HotspotIndex.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockIndicator_PaneDiamond_Left.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockIndicator_PaneDiamond_Right.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockIndicator_PaneDiamond_Top.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockIndicator_PanelBottom.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockIndicator_PanelBottom_Active.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockIndicator_PanelFill.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockIndicator_PanelFill_Active.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockIndicator_PanelLeft.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockIndicator_PanelLeft_Active.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockIndicator_PanelRight.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockIndicator_PanelRight_Active.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockIndicator_PanelTop.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockIndicator_PanelTop_Active.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockPaneCaption_AutoHideNo.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockPaneCaption_AutoHideYes.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockPaneCaption_CloseDisabled.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockPaneCaption_CloseEnabled.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockPaneStrip_CloseDisabled.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockPaneStrip_CloseEnabled.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockPaneStrip_ScrollLeftDisabled.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockPaneStrip_ScrollLeftEnabled.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockPaneStrip_ScrollRightDisabled.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\prop-base\DockPaneStrip_ScrollRightEnabled.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockIndicator_PaneDiamond.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockIndicator_PaneDiamond_Bottom.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\Dockindicator_PaneDiamond_Fill.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockIndicator_PaneDiamond_Hotspot.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockIndicator_PaneDiamond_HotspotIndex.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockIndicator_PaneDiamond_Left.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockIndicator_PaneDiamond_Right.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockIndicator_PaneDiamond_Top.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockIndicator_PanelBottom.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockIndicator_PanelBottom_Active.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockIndicator_PanelFill.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockIndicator_PanelFill_Active.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockIndicator_PanelLeft.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockIndicator_PanelLeft_Active.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockIndicator_PanelRight.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockIndicator_PanelRight_Active.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockIndicator_PanelTop.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockIndicator_PanelTop_Active.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockPaneCaption_AutoHideNo.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockPaneCaption_AutoHideYes.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockPaneCaption_CloseDisabled.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockPaneCaption_CloseEnabled.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockPaneStrip_CloseDisabled.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockPaneStrip_CloseEnabled.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockPaneStrip_ScrollLeftDisabled.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockPaneStrip_ScrollLeftEnabled.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockPaneStrip_ScrollRightDisabled.bmp.svn-base" />
+    <None Include="Customization\Resources\.svn\text-base\DockPaneStrip_ScrollRightEnabled.bmp.svn-base" />
+    <None Include="Images\.svn\all-wcprops" />
+    <None Include="Images\.svn\entries" />
+    <None Include="Images\.svn\prop-base\ArrowDown.bmp.svn-base" />
+    <None Include="Images\.svn\prop-base\ArrowUp.bmp.svn-base" />
+    <None Include="Images\.svn\prop-base\Bitmap.ico.svn-base" />
+    <None Include="Images\.svn\prop-base\BlankIcon.ico.svn-base" />
+    <None Include="Images\.svn\prop-base\ClosedFolder.ICO.svn-base" />
+    <None Include="Images\.svn\prop-base\CSFile.ico.svn-base" />
+    <None Include="Images\.svn\prop-base\CSProject.ico.svn-base" />
+    <None Include="Images\.svn\prop-base\File.ico.svn-base" />
+    <None Include="Images\.svn\prop-base\Form.ico.svn-base" />
+    <None Include="Images\.svn\prop-base\Mouse.bmp.svn-base" />
+    <None Include="Images\.svn\prop-base\msenv22.ico.svn-base" />
+    <None Include="Images\.svn\prop-base\New.ico.svn-base" />
+    <None Include="Images\.svn\prop-base\Open.ico.svn-base" />
+    <None Include="Images\.svn\prop-base\OpenFolder.ICO.svn-base" />
+    <None Include="Images\.svn\prop-base\OutputWindow.ico.svn-base" />
+    <None Include="Images\.svn\prop-base\PropertyWindow.ico.svn-base" />
+    <None Include="Images\.svn\prop-base\Reference.ico.svn-base" />
+    <None Include="Images\.svn\prop-base\References.ico.svn-base" />
+    <None Include="Images\.svn\prop-base\SolutionExplorer.ico.svn-base" />
+    <None Include="Images\.svn\prop-base\TaskListWindow.ico.svn-base" />
+    <None Include="Images\.svn\prop-base\ToolboxWindow.ico.svn-base" />
+    <None Include="Images\.svn\prop-base\XmlFile.ico.svn-base" />
+    <None Include="Images\.svn\text-base\ArrowDown.bmp.svn-base" />
+    <None Include="Images\.svn\text-base\ArrowUp.bmp.svn-base" />
+    <None Include="Images\.svn\text-base\Bitmap.ico.svn-base" />
+    <None Include="Images\.svn\text-base\BlankIcon.ico.svn-base" />
+    <None Include="Images\.svn\text-base\ClosedFolder.ICO.svn-base" />
+    <None Include="Images\.svn\text-base\CSFile.ico.svn-base" />
+    <None Include="Images\.svn\text-base\CSProject.ico.svn-base" />
+    <None Include="Images\.svn\text-base\File.ico.svn-base" />
+    <None Include="Images\.svn\text-base\Form.ico.svn-base" />
+    <None Include="Images\.svn\text-base\Mouse.bmp.svn-base" />
+    <None Include="Images\.svn\text-base\msenv22.ico.svn-base" />
+    <None Include="Images\.svn\text-base\New.ico.svn-base" />
+    <None Include="Images\.svn\text-base\Open.ico.svn-base" />
+    <None Include="Images\.svn\text-base\OpenFolder.ICO.svn-base" />
+    <None Include="Images\.svn\text-base\OutputWindow.ico.svn-base" />
+    <None Include="Images\.svn\text-base\PropertyWindow.ico.svn-base" />
+    <None Include="Images\.svn\text-base\Reference.ico.svn-base" />
+    <None Include="Images\.svn\text-base\References.ico.svn-base" />
+    <None Include="Images\.svn\text-base\SolutionExplorer.ico.svn-base" />
+    <None Include="Images\.svn\text-base\TaskListWindow.ico.svn-base" />
+    <None Include="Images\.svn\text-base\ToolboxWindow.ico.svn-base" />
+    <None Include="Images\.svn\text-base\XmlFile.ico.svn-base" />
+    <None Include="Resources\.svn\all-wcprops" />
+    <None Include="Resources\.svn\entries" />
+    <None Include="Resources\.svn\prop-base\DockPanel.xml.svn-base" />
+    <None Include="Resources\.svn\text-base\DockPanel.xml.svn-base" />
+    <None Include="Resources\0001.png" />
+    <None Include="Resources\0002.png" />
+    <None Include="Resources\1.bmp" />
+    <Content Include="Resources\AddTableHS.png" />
+    <None Include="Resources\AddTableHS1.png" />
+    <None Include="Resources\AddTableHS2.png" />
+    <None Include="Resources\AddTableHS3.png" />
+    <None Include="Resources\AddTableHS4.png" />
+    <Content Include="Resources\ajax-loader-big.gif" />
+    <None Include="Resources\ajax-loader-big1.gif" />
+    <None Include="Resources\ajax-loader-big2.gif" />
+    <Content Include="Resources\ajax-loader-snake.gif" />
+    <None Include="Resources\ajax-loader-snake1.gif" />
+    <None Include="Resources\ajax-loader-snake2.gif" />
+    <Content Include="Resources\ajax_clock_small.gif" />
+    <None Include="Resources\ajax_clock_small1.gif" />
+    <None Include="Resources\ajax_clock_small2.gif" />
+    <Content Include="Resources\arrow_ltr.png" />
+    <None Include="Resources\arrow_ltr1.png" />
+    <None Include="Resources\arrow_ltr2.png" />
+    <Content Include="Resources\arrow_rtl.png" />
+    <None Include="Resources\arrow_rtl1.png" />
+    <None Include="Resources\arrow_rtl2.png" />
+    <Content Include="Resources\bd_drop.png" />
+    <None Include="Resources\bd_drop1.png" />
+    <None Include="Resources\bd_drop2.png" />
+    <Content Include="Resources\bd_empty.png" />
+    <None Include="Resources\bd_empty1.png" />
+    <None Include="Resources\bd_empty2.png" />
+    <Content Include="Resources\bd_firstpage.png" />
+    <None Include="Resources\bd_firstpage1.png" />
+    <None Include="Resources\bd_firstpage2.png" />
+    <Content Include="Resources\bd_lastpage.png" />
+    <None Include="Resources\bd_lastpage1.png" />
+    <None Include="Resources\bd_lastpage2.png" />
+    <Content Include="Resources\bd_nextpage.png" />
+    <None Include="Resources\bd_nextpage1.png" />
+    <None Include="Resources\bd_nextpage2.png" />
+    <Content Include="Resources\bd_prevpage.png" />
+    <None Include="Resources\bd_prevpage1.png" />
+    <None Include="Resources\bd_prevpage2.png" />
+    <Content Include="Resources\b_calendar.png" />
+    <None Include="Resources\b_calendar1.png" />
+    <None Include="Resources\b_calendar2.png" />
+    <Content Include="Resources\b_docsql.png" />
+    <None Include="Resources\b_docsql1.png" />
+    <None Include="Resources\b_docsql2.png" />
+    <None Include="Resources\b_docsql3.png" />
+    <None Include="Resources\b_docsql4.png" />
+    <Content Include="Resources\b_drop.png" />
+    <None Include="Resources\b_drop1.png" />
+    <None Include="Resources\b_drop2.png" />
+    <Content Include="Resources\b_edit.png" />
+    <None Include="Resources\b_edit1.png" />
+    <None Include="Resources\b_edit2.png" />
+    <Content Include="Resources\b_firstpage.png" />
+    <None Include="Resources\b_firstpage1.png" />
+    <None Include="Resources\b_firstpage2.png" />
+    <Content Include="Resources\b_home.png" />
+    <None Include="Resources\b_home1.png" />
+    <None Include="Resources\b_home2.png" />
+    <Content Include="Resources\b_lastpage.png" />
+    <None Include="Resources\b_lastpage1.png" />
+    <None Include="Resources\b_lastpage2.png" />
+    <Content Include="Resources\b_nextpage.png" />
+    <None Include="Resources\b_nextpage1.png" />
+    <None Include="Resources\b_nextpage2.png" />
+    <Content Include="Resources\b_prevpage.png" />
+    <None Include="Resources\b_prevpage1.png" />
+    <None Include="Resources\b_prevpage2.png" />
+    <Content Include="Resources\b_print.png" />
+    <None Include="Resources\b_print1.png" />
+    <None Include="Resources\b_print2.png" />
+    <Content Include="Resources\b_save.png" />
+    <None Include="Resources\b_save1.png" />
+    <None Include="Resources\b_save2.png" />
+    <Content Include="Resources\b_search.png" />
+    <None Include="Resources\b_search1.png" />
+    <None Include="Resources\b_search2.png" />
+    <Content Include="Resources\b_tblexport.png" />
+    <None Include="Resources\b_tblexport1.png" />
+    <None Include="Resources\b_tblexport2.png" />
+    <Content Include="Resources\b_tblimport.png" />
+    <None Include="Resources\b_tblimport1.png" />
+    <None Include="Resources\b_tblimport2.png" />
+    <Content Include="Resources\b_tblops.png" />
+    <Content Include="Resources\b_usradd.png" />
+    <None Include="Resources\b_usradd1.png" />
+    <None Include="Resources\b_usradd2.png" />
+    <Content Include="Resources\b_usrcheck.png" />
+    <None Include="Resources\b_usrcheck1.png" />
+    <None Include="Resources\b_usrcheck2.png" />
+    <Content Include="Resources\b_usrdrop.png" />
+    <None Include="Resources\b_usrdrop1.png" />
+    <None Include="Resources\b_usrdrop2.png" />
+    <Content Include="Resources\b_usredit.png" />
+    <None Include="Resources\b_usredit1.png" />
+    <None Include="Resources\b_usredit2.png" />
+    <Content Include="Resources\b_usrlist.png" />
+    <None Include="Resources\b_usrlist1.png" />
+    <None Include="Resources\b_usrlist2.png" />
+    <Content Include="Resources\b_view.png" />
+    <None Include="Resources\b_view1.png" />
+    <None Include="Resources\b_view2.png" />
+    <Content Include="Resources\Chat.png" />
+    <None Include="Resources\Chat1.png" />
+    <None Include="Resources\Chat2.png" />
+    <None Include="Resources\Coffee.bmp" />
+    <Content Include="Resources\Copy of b_docsql.png" />
+    <Content Include="Resources\Copy of icon_new.png" />
+    <Content Include="Resources\Copy of icon_open.png" />
+    <Content Include="Resources\Copy of icon_pan.png" />
+    <Content Include="Resources\Copy of Tools.png" />
+    <Content Include="Resources\Copy of toolsbasic.png" />
+    <Content Include="Resources\DATABASE.png" />
+    <None Include="Resources\DATABASE1.png" />
+    <None Include="Resources\DATABASE2.png" />
+    <None Include="Resources\Dining.BMP" />
+    <Content Include="Resources\DockPanel.xml" />
+    <Content Include="Resources\EditTableHS.png" />
+    <None Include="Resources\EditTableHS1.png" />
+    <None Include="Resources\EditTableHS2.png" />
+    <None Include="Resources\EditTableHS3.png" />
+    <None Include="Resources\EditTableHS4.png" />
+    <Content Include="Resources\eye.png" />
+    <Content Include="Resources\favicon.gif" />
+    <Content Include="Resources\favicon.png" />
+    <None Include="Resources\favicon1.gif" />
+    <None Include="Resources\favicon1.png" />
+    <None Include="Resources\favicon2.gif" />
+    <None Include="Resources\favicon2.png" />
+    <Content Include="Resources\Find-icon1616.png" />
+    <None Include="Resources\Find-icon16161.png" />
+    <None Include="Resources\Find-icon16162.png" />
+    <Content Include="Resources\Find-icon2424.png" />
+    <None Include="Resources\Find-icon24241.png" />
+    <None Include="Resources\Find-icon24242.png" />
+    <Content Include="Resources\Find-icon3232.png" />
+    <None Include="Resources\Find-icon32321.png" />
+    <None Include="Resources\Find-icon32322.png" />
+    <Content Include="Resources\Find-icon4848.png" />
+    <None Include="Resources\Find-icon48481.png" />
+    <None Include="Resources\Find-icon48482.png" />
+    <Content Include="Resources\Flag.png" />
+    <None Include="Resources\Flag1.png" />
+    <None Include="Resources\Flag2.png" />
+    <None Include="Resources\garmin-logo.png" />
+    <Content Include="Resources\Globe-icon1616.png" />
+    <None Include="Resources\Globe-icon16161.png" />
+    <None Include="Resources\Globe-icon16162.png" />
+    <Content Include="Resources\Globe-icon2424.png" />
+    <None Include="Resources\Globe-icon24241.png" />
+    <None Include="Resources\Globe-icon24242.png" />
+    <Content Include="Resources\Globe-icon3232.png" />
+    <None Include="Resources\Globe-icon32321.png" />
+    <None Include="Resources\Globe-icon32322.png" />
+    <Content Include="Resources\Globe-icon4848.png" />
+    <None Include="Resources\Globe-icon48481.png" />
+    <None Include="Resources\Globe-icon48482.png" />
+    <None Include="Resources\gov.bmp" />
+    <Content Include="Resources\Help-icon1616.png" />
+    <None Include="Resources\Help-icon16161.png" />
+    <None Include="Resources\Help-icon16162.png" />
+    <Content Include="Resources\Help-icon2424.png" />
+    <None Include="Resources\Help-icon24241.png" />
+    <None Include="Resources\Help-icon24242.png" />
+    <Content Include="Resources\Help-icon3232.png" />
+    <None Include="Resources\Help-icon32321.png" />
+    <None Include="Resources\Help-icon32322.png" />
+    <Content Include="Resources\Help-icon4848.png" />
+    <None Include="Resources\Help-icon48481.png" />
+    <None Include="Resources\Help-icon48482.png" />
+    <Content Include="Resources\Home.png" />
+    <None Include="Resources\Home1.png" />
+    <None Include="Resources\Home2.png" />
+    <None Include="Resources\icon_new1.png" />
+    <None Include="Resources\icon_new2.png" />
+    <None Include="Resources\icon_new.png" />
+    <None Include="Resources\Hospitals.bmp" />
+    <Content Include="Resources\icon_open.png" />
+    <None Include="Resources\icon_open1.png" />
+    <None Include="Resources\icon_open2.png" />
+    <Content Include="Resources\icon_pan.png" />
+    <None Include="Resources\icon_pan1.png" />
+    <None Include="Resources\icon_pan2.png" />
+    <Content Include="Resources\imgtrip_divdown.png" />
+    <Content Include="Resources\imgtrip_divup.png" />
+    <Content Include="Resources\item.png" />
+    <None Include="Resources\item1.png" />
+    <None Include="Resources\item2.png" />
+    <Content Include="Resources\item_ltr.png" />
+    <None Include="Resources\item_ltr1.png" />
+    <None Include="Resources\item_ltr2.png" />
+    <Content Include="Resources\item_rtl.png" />
+    <None Include="Resources\item_rtl1.png" />
+    <None Include="Resources\item_rtl2.png" />
+    <Content Include="Resources\net.mootools.1.2.png" />
+    <Content Include="Resources\NewRandomGeometry.png" />
+    <None Include="Resources\NewRandomGeometry1.png" />
+    <None Include="Resources\NewRandomGeometry2.png" />
+    <Content Include="Resources\pan.png" />
+    <None Include="Resources\pan1.png" />
+    <None Include="Resources\pan2.png" />
+    <None Include="Resources\pan3.png" />
+    <None Include="Resources\pan4.png" />
+    <Content Include="Resources\PIE DIAGRAM.png" />
+    <None Include="Resources\PIE DIAGRAM1.png" />
+    <None Include="Resources\PIE DIAGRAM2.png" />
+    <None Include="Resources\PIE DIAGRAM3.png" />
+    <None Include="Resources\PIE DIAGRAM4.png" />
+    <Content Include="Resources\polygon.png" />
+    <None Include="Resources\polygon1.png" />
+    <None Include="Resources\polygon2.png" />
+    <None Include="Resources\polygon3.png" />
+    <None Include="Resources\polygon4.png" />
+    <Content Include="Resources\query.png" />
+    <None Include="Resources\query1.png" />
+    <None Include="Resources\query2.png" />
+    <None Include="Resources\query3.png" />
+    <None Include="Resources\query4.png" />
+    <Content Include="Resources\Raster.png" />
+    <None Include="Resources\Raster1.png" />
+    <None Include="Resources\Raster2.png" />
+    <None Include="Resources\Raster3.png" />
+    <None Include="Resources\Raster4.png" />
+    <Content Include="Resources\Refresh.jpg" />
+    <None Include="Resources\Refresh1.jpg" />
+    <None Include="Resources\Refresh2.jpg" />
+    <Content Include="Resources\RemoveTable.png" />
+    <None Include="Resources\RemoveTable1.png" />
+    <None Include="Resources\RemoveTable2.png" />
+    <None Include="Resources\RemoveTable3.png" />
+    <None Include="Resources\RemoveTable4.png" />
+    <None Include="Resources\sport.bmp" />
+    <Content Include="Resources\s_attention.png" />
+    <None Include="Resources\s_attention1.png" />
+    <None Include="Resources\s_attention2.png" />
+    <Content Include="Resources\s_error.png" />
+    <None Include="Resources\s_error1.png" />
+    <Content Include="Resources\s_error2.png" />
+    <None Include="Resources\s_error21.png" />
+    <None Include="Resources\s_error3.png" />
+    <None Include="Resources\s_error22.png" />
+    <Content Include="Resources\s_host.png" />
+    <None Include="Resources\s_host1.png" />
+    <None Include="Resources\s_host2.png" />
+    <Content Include="Resources\s_info.png" />
+    <None Include="Resources\s_info1.png" />
+    <None Include="Resources\s_info2.png" />
+    <Content Include="Resources\s_lang.png" />
+    <None Include="Resources\s_lang1.png" />
+    <None Include="Resources\s_lang2.png" />
+    <Content Include="Resources\s_okay.png" />
+    <None Include="Resources\s_okay1.png" />
+    <None Include="Resources\s_okay2.png" />
+    <Content Include="Resources\s_reload.png" />
+    <None Include="Resources\s_reload1.png" />
+    <None Include="Resources\s_reload2.png" />
+    <Content Include="Resources\s_status.png" />
+    <None Include="Resources\s_status1.png" />
+    <None Include="Resources\s_status2.png" />
+    <Content Include="Resources\s_success.png" />
+    <None Include="Resources\s_success1.png" />
+    <None Include="Resources\s_success2.png" />
+    <Content Include="Resources\s_warn.png" />
+    <None Include="Resources\s_warn1.png" />
+    <None Include="Resources\s_warn2.png" />
+    <Content Include="Resources\Tools.png" />
+    <None Include="Resources\Tools1.png" />
+    <None Include="Resources\Tools2.png" />
+    <None Include="Resources\Tools3.png" />
+    <None Include="Resources\Tools4.png" />
+    <Content Include="Resources\toolsbasic.png" />
+    <None Include="Resources\toolsbasic1.png" />
+    <None Include="Resources\toolsbasic2.png" />
+    <None Include="Resources\toolsbasic3.png" />
+    <None Include="Resources\toolsbasic4.png" />
+    <Content Include="Resources\TripodmapsIcon16by16.bmp" />
+    <Content Include="Resources\TripodmapsIcon16by16.ico" />
+    <Content Include="Resources\TripodmapsIcon16by16.png" />
+    <Content Include="Resources\TripodmapsIcon32by32.bmp" />
+    <Content Include="Resources\TripodmapsIcon32by32.ico" />
+    <Content Include="Resources\TripodsystemsIcon2.ico" />
+    <Content Include="Resources\TripodsystemsIcon16by16.png" />
+    <Content Include="Resources\TripodsystemsIcon32by32.png" />
+    <Content Include="Resources\Women.png" />
+    <None Include="Resources\Women1.png" />
+    <None Include="Resources\Women2.png" />
+    <Content Include="Resources\Women_1.png" />
+    <None Include="Resources\Women_11.png" />
+    <None Include="Resources\Women_12.png" />
+    <Content Include="Resources\Zoom In.png" />
+    <None Include="Resources\Zoom In1.png" />
+    <None Include="Resources\Zoom In2.png" />
+    <None Include="Resources\Zoom In3.png" />
+    <None Include="Resources\Zoom In4.png" />
+    <Content Include="Resources\Zoom Out.png" />
+    <None Include="Resources\Zoom Out1.png" />
+    <None Include="Resources\Zoom Out2.png" />
+    <None Include="Resources\Zoom Out3.png" />
+    <None Include="Resources\Zoom Out4.png" />
+    <Content Include="Resources\Zoom-In-icon1616.png" />
+    <None Include="Resources\Zoom-In-icon16161.png" />
+    <None Include="Resources\Zoom-In-icon16162.png" />
+    <Content Include="Resources\Zoom-In-icon2424.png" />
+    <None Include="Resources\Zoom-In-icon24241.png" />
+    <None Include="Resources\Zoom-In-icon24242.png" />
+    <Content Include="Resources\Zoom-In-icon3232.png" />
+    <None Include="Resources\Zoom-In-icon32321.png" />
+    <None Include="Resources\Zoom-In-icon32322.png" />
+    <Content Include="Resources\Zoom-In-icon4848.png" />
+    <None Include="Resources\Zoom-In-icon48481.png" />
+    <None Include="Resources\Zoom-In-icon48482.png" />
+    <Content Include="Resources\Zoom-Out-icon1616.png" />
+    <None Include="Resources\Zoom-Out-icon16161.png" />
+    <None Include="Resources\Zoom-Out-icon16162.png" />
+    <Content Include="Resources\Zoom-Out-icon2424.png" />
+    <None Include="Resources\Zoom-Out-icon24241.png" />
+    <None Include="Resources\Zoom-Out-icon24242.png" />
+    <Content Include="Resources\Zoom-Out-icon3232.png" />
+    <None Include="Resources\Zoom-Out-icon32321.png" />
+    <None Include="Resources\Zoom-Out-icon32322.png" />
+    <Content Include="Resources\Zoom-Out-icon4848.png" />
+    <None Include="Resources\Zoom-Out-icon48481.png" />
+    <None Include="Resources\Zoom-Out-icon48482.png" />
+    <Content Include="Resources\ZoomToExtents.png" />
+    <None Include="Service References\ncConstructor\soapgeoservices.wsdl" />
+    <None Include="Service References\ncConstructor\Tripodmaps.ncConstructor.GeocodingResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ncConstructor\Tripodmaps.ncConstructor.MappingResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ncConstructor\Tripodmaps.ncConstructor.NACResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ncConstructor\Tripodmaps.ncConstructor.RoutingResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ncSearchGeo\geoservices.disco" />
+    <None Include="Service References\ncSearchGeo\configuration91.svcinfo" />
+    <None Include="Service References\ncSearchGeo\configuration.svcinfo" />
+    <None Include="Service References\ncSearchGeo\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ncConstructor\soapgeoservices.disco" />
+    <None Include="Service References\ncConstructor\configuration91.svcinfo" />
+    <None Include="Service References\ncConstructor\configuration.svcinfo" />
+    <None Include="Service References\ncConstructor\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="TripodsystemsIcon.ico" />
+    <Content Include="TripodsystemsIcon2.ico" />
+    <None Include="Resources\ZoomToExtents2.png" />
+    <None Include="Resources\ZoomToExtents1.png" />
+    <None Include="Service References\ncSearchGeo\geoservices.wsdl" />
+    <None Include="Service References\ncSearchGeo\Tripodmaps.ncSearchGeo.directionsinfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ncSearchGeo\Tripodmaps.ncSearchGeo.geocoderesult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ncSearchGeo\Tripodmaps.ncSearchGeo.locationinfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ncSearchGeo\Tripodmaps.ncSearchGeo.mapbybr.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ncSearchGeo\Tripodmaps.ncSearchGeo.mapinfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ncSearchGeo\Tripodmaps.ncSearchGeo.mpdirectionsinfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ncSearchGeo\Tripodmaps.ncSearchGeo.searchresult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ncSearchGeo\Tripodmaps.ncSearchGeo.trafficinfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="tripapi.snk" />
+    <None Include="Tripodmaps.pfx" />
+    <None Include="Tripodmaps_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Codeproject\ToolboxPanel\v3_DockPanelSuite\svn\trunk\WinFormsUI\WinFormsUI.csproj">
+      <Project>{C75532C4-765B-418E-B09B-46D36B2ABDB1}</Project>
+      <Name>WinFormsUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\egis.controls\Tripodmaps.Viewer.csproj">
+      <Project>{EB97525D-0906-4A14-A995-93667B565521}</Project>
+      <Name>Tripodmaps.Viewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\egis.ShapeFileLib\Tripodmaps.Reader.csproj">
+      <Project>{C89DEB9B-4DCA-4792-B216-F00808606AF7}</Project>
+      <Name>Tripodmaps.Reader</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Npgsql2.0.11.src\Npgsql2.0.11.src\src\Npgsql2008.csproj">
+      <Project>{9D13B739-62B1-4190-B386-7A9547304EB3}</Project>
+      <Name>Npgsql2008</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PDFView\PDFView.vbproj">
+      <Project>{170D7D1B-61B9-4E8B-9CD3-88350725379F}</Project>
+      <Name>PDFView</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TRIP_API\TRIP_API.csproj">
+      <Project>{B0551FB3-0B35-4BB3-B287-D7B414A906C2}</Project>
+      <Name>TRIP_API</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XPPanel\XPPanel.csproj">
+      <Project>{8B656A5B-3371-461B-86BA-61F5EA96DBB2}</Project>
+      <Name>XPPanel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ncConstructor\" />
+    <WCFMetadataStorage Include="Service References\ncSearchGeo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Customization\.svn\prop-base\" />
+    <Folder Include="Customization\.svn\props\" />
+    <Folder Include="Customization\.svn\tmp\prop-base\" />
+    <Folder Include="Customization\.svn\tmp\props\" />
+    <Folder Include="Customization\.svn\tmp\text-base\" />
+    <Folder Include="Customization\Resources\.svn\props\" />
+    <Folder Include="Customization\Resources\.svn\tmp\prop-base\" />
+    <Folder Include="Customization\Resources\.svn\tmp\props\" />
+    <Folder Include="Customization\Resources\.svn\tmp\text-base\" />
+    <Folder Include="Images\.svn\props\" />
+    <Folder Include="Images\.svn\tmp\prop-base\" />
+    <Folder Include="Images\.svn\tmp\props\" />
+    <Folder Include="Images\.svn\tmp\text-base\" />
+    <Folder Include="Properties\DataSources\" />
+    <Folder Include="Resources\.svn\props\" />
+    <Folder Include="Resources\.svn\tmp\prop-base\" />
+    <Folder Include="Resources\.svn\tmp\props\" />
+    <Folder Include="Resources\.svn\tmp\text-base\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

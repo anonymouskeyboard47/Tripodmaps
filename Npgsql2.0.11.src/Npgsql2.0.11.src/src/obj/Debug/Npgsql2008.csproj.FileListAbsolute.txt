@@ -1,0 +1,327 @@
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\Npgsql.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\Npgsql.pdb
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\Npgsql.XML
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\de\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\ja\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\zh-CN\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\fr\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\es\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\fi\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\Mono.Security.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\ResolveAssemblyReference.cache
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\NpgsqlTypes.NpgsqlTypesHelper.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlClosedState.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommandBuilder.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectedState.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlException.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlReadyState.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlRow.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlState.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.PGUtil.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectionStringBuilder.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\NpgsqlTypes.NpgsqlTypesHelper.de.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\NpgsqlTypes.NpgsqlTypesHelper.ja.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\NpgsqlTypes.NpgsqlTypesHelper.zh-CN.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.de.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.fr.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.es.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.fi.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.ja.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.zh-CN.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.de.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.es.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.fi.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.fr.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.ja.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.zh-CN.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.de.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.es.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.fi.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.fr.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.ja.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.zh-CN.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlException.de.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlException.fr.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.de.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.es.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.fi.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.fr.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.ja.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.zh-CN.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.de.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.es.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.fi.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.fr.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.ja.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.zh-CN.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlReadyState.de.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlReadyState.fr.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlRow.de.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlRow.fr.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlState.de.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlState.fr.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.de.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.es.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.fi.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.fr.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.ja.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.zh-CN.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.PGUtil.de.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.PGUtil.fr.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlClosedState.ja.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlClosedState.de.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlClosedState.fr.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlClosedState.zh-CN.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommandBuilder.ja.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommandBuilder.fr.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommandBuilder.de.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommandBuilder.zh-CN.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectedState.de.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectedState.fr.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectedState.ja.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectedState.zh-CN.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectionStringBuilder.de.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectionStringBuilder.fr.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectionStringBuilder.ja.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectionStringBuilder.zh-CN.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlException.ja.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlException.zh-CN.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlReadyState.ja.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlReadyState.zh-CN.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlState.ja.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlState.zh-CN.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.PGUtil.ja.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.PGUtil.zh-CN.resources
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql2008.csproj.GenerateResource.Cache
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\de\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\ja\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\zh-CN\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\fr\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\es\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\fi\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.pdb
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\Npgsql.dll
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\Npgsql.pdb
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\Npgsql.XML
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\de\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\ja\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\zh-CN\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\fr\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\es\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\fi\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\Mono.Security.dll
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\ResolveAssemblyReference.cache
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\NpgsqlTypes.NpgsqlTypesHelper.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlClosedState.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommandBuilder.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectedState.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlException.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlReadyState.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlRow.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlState.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.PGUtil.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectionStringBuilder.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\NpgsqlTypes.NpgsqlTypesHelper.de.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\NpgsqlTypes.NpgsqlTypesHelper.ja.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\NpgsqlTypes.NpgsqlTypesHelper.zh-CN.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.de.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.fr.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.es.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.fi.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.ja.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.zh-CN.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.de.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.es.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.fi.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.fr.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.ja.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.zh-CN.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.de.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.es.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.fi.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.fr.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.ja.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.zh-CN.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlException.de.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlException.fr.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.de.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.es.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.fi.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.fr.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.ja.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.zh-CN.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.de.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.es.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.fi.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.fr.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.ja.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.zh-CN.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlReadyState.de.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlReadyState.fr.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlRow.de.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlRow.fr.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlState.de.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlState.fr.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.de.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.es.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.fi.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.fr.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.ja.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.zh-CN.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.PGUtil.de.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.PGUtil.fr.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlClosedState.ja.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlClosedState.de.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlClosedState.fr.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlClosedState.zh-CN.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommandBuilder.ja.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommandBuilder.fr.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommandBuilder.de.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommandBuilder.zh-CN.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectedState.de.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectedState.fr.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectedState.ja.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectedState.zh-CN.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectionStringBuilder.de.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectionStringBuilder.fr.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectionStringBuilder.ja.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectionStringBuilder.zh-CN.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlException.ja.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlException.zh-CN.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlReadyState.ja.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlReadyState.zh-CN.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlState.ja.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlState.zh-CN.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.PGUtil.ja.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.PGUtil.zh-CN.resources
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql2008.csproj.GenerateResource.Cache
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\de\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\ja\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\zh-CN\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\fr\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\es\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\fi\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.dll
+D:\Software\Development\Tripodmaps\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.pdb
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\Npgsql.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\Npgsql.pdb
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\Npgsql.XML
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\de\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\ja\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\zh-CN\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\fr\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\es\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\fi\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\bin\Debug\Mono.Security.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\ResolveAssemblyReference.cache
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\NpgsqlTypes.NpgsqlTypesHelper.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlClosedState.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommandBuilder.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectedState.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlException.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlReadyState.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlRow.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlState.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.PGUtil.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectionStringBuilder.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\NpgsqlTypes.NpgsqlTypesHelper.de.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\NpgsqlTypes.NpgsqlTypesHelper.ja.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\NpgsqlTypes.NpgsqlTypesHelper.zh-CN.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.de.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.fr.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.es.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.fi.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.ja.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommand.zh-CN.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.de.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.es.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.fi.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.fr.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.ja.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnection.zh-CN.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.de.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.es.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.fi.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.fr.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.ja.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlEventLog.zh-CN.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlException.de.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlException.fr.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.de.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.es.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.fi.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.fr.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.ja.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameter.zh-CN.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.de.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.es.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.fi.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.fr.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.ja.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlParameterCollection.zh-CN.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlReadyState.de.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlReadyState.fr.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlRow.de.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlRow.fr.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlState.de.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlState.fr.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.de.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.es.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.fi.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.fr.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.ja.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlTransaction.zh-CN.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.PGUtil.de.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.PGUtil.fr.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlClosedState.ja.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlClosedState.de.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlClosedState.fr.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlClosedState.zh-CN.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommandBuilder.ja.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommandBuilder.fr.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommandBuilder.de.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlCommandBuilder.zh-CN.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectedState.de.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectedState.fr.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectedState.ja.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectedState.zh-CN.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectionStringBuilder.de.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectionStringBuilder.fr.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectionStringBuilder.ja.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlConnectionStringBuilder.zh-CN.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlException.ja.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlException.zh-CN.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlReadyState.ja.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlReadyState.zh-CN.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlState.ja.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.NpgsqlState.zh-CN.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.PGUtil.ja.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.PGUtil.zh-CN.resources
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql2008.csproj.GenerateResource.Cache
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\de\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\ja\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\zh-CN\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\fr\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\es\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\fi\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\Npgsql2.0.11.src\Npgsql2.0.11.src\src\obj\Debug\Npgsql.pdb

@@ -1,0 +1,14 @@
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.controls\bin\Debug\gdipluslib.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.controls\bin\Debug\EGIS.Controls.XML
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.controls\bin\Debug\EGIS.Controls.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.controls\bin\Debug\EGIS.Controls.pdb
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.controls\bin\Debug\EGIS.ShapeFileLib.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.controls\bin\Debug\EGIS.ShapeFileLib.pdb
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.controls\bin\Debug\EGIS.ShapeFileLib.xml
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.controls\obj\Debug\ResolveAssemblyReference.cache
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.controls\obj\Debug\EGIS.Controls.Properties.Resources.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.controls\obj\Debug\EGIS.Controls.SFMap.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.controls\obj\Debug\EGIS.Controls.ShapeFileListControl.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.controls\obj\Debug\Tripodmaps.Controls.csproj.GenerateResource.Cache
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.controls\obj\Debug\EGIS.Controls.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.controls\obj\Debug\EGIS.Controls.pdb

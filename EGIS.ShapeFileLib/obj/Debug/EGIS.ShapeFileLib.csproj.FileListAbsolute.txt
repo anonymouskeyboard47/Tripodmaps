@@ -1,0 +1,13 @@
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\egis.ShapeFileLib\bin\Debug\gdipluslib.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\egis.ShapeFileLib\bin\Debug\EGIS.ShapeFileLib.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\egis.ShapeFileLib\bin\Debug\EGIS.ShapeFileLib.pdb
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\egis.ShapeFileLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\egis.ShapeFileLib\obj\Debug\EGIS.ShapeFileLib.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\egis.ShapeFileLib\obj\Debug\EGIS.ShapeFileLib.pdb
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\egis.ShapeFileLib\bin\Debug\egis.ShapeFileLib.XML
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.ShapeFileLib\bin\Debug\gdipluslib.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.ShapeFileLib\bin\Debug\EGIS.ShapeFileLib.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.ShapeFileLib\bin\Debug\EGIS.ShapeFileLib.pdb
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.ShapeFileLib\obj\Debug\ResolveAssemblyReference.cache
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.ShapeFileLib\obj\Debug\EGIS.ShapeFileLib.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\egis.ShapeFileLib\obj\Debug\EGIS.ShapeFileLib.pdb

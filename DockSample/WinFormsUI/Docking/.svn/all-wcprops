@@ -1,0 +1,281 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/dockpanelsuite/!svn/ver/114/trunk/WinFormsUI/Docking
+END
+DockOutlineBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/DockOutlineBase.cs
+END
+AutoHideStripBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/dockpanelsuite/!svn/ver/26/trunk/WinFormsUI/Docking/AutoHideStripBase.cs
+END
+VS2005DockPaneCaption.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/dockpanelsuite/!svn/ver/114/trunk/WinFormsUI/Docking/VS2005DockPaneCaption.cs
+END
+Interfaces.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/dockpanelsuite/!svn/ver/73/trunk/WinFormsUI/Docking/Interfaces.cs
+END
+DockWindowCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/DockWindowCollection.cs
+END
+Measures.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/Measures.cs
+END
+NestedDockingStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/NestedDockingStatus.cs
+END
+Resources.resx
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/dockpanelsuite/!svn/ver/32/trunk/WinFormsUI/Docking/Resources.resx
+END
+Enums.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/dockpanelsuite/!svn/ver/73/trunk/WinFormsUI/Docking/Enums.cs
+END
+DockContentCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/dockpanelsuite/!svn/ver/10/trunk/WinFormsUI/Docking/DockContentCollection.cs
+END
+DockPanel.Persistor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/dockpanelsuite/!svn/ver/73/trunk/WinFormsUI/Docking/DockPanel.Persistor.cs
+END
+DockPanel.AutoHideWindow.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/dockpanelsuite/!svn/ver/41/trunk/WinFormsUI/Docking/DockPanel.AutoHideWindow.cs
+END
+DockContentEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/DockContentEventArgs.cs
+END
+DockPaneCaptionBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/dockpanelsuite/!svn/ver/26/trunk/WinFormsUI/Docking/DockPaneCaptionBase.cs
+END
+DockPanelExtender.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/dockpanelsuite/!svn/ver/31/trunk/WinFormsUI/Docking/DockPanelExtender.cs
+END
+DockPaneCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/DockPaneCollection.cs
+END
+DragForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/DragForm.cs
+END
+DockPanel.SplitterDragHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/DockPanel.SplitterDragHandler.cs
+END
+SplitterBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/SplitterBase.cs
+END
+NestedPaneCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/dockpanelsuite/!svn/ver/114/trunk/WinFormsUI/Docking/NestedPaneCollection.cs
+END
+DockWindow.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/DockWindow.cs
+END
+FloatWindowCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/FloatWindowCollection.cs
+END
+DockContentHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/dockpanelsuite/!svn/ver/89/trunk/WinFormsUI/Docking/DockContentHandler.cs
+END
+Resources.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/dockpanelsuite/!svn/ver/93/trunk/WinFormsUI/Docking/Resources.Designer.cs
+END
+DockPanel.MdiClientController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/dockpanelsuite/!svn/ver/73/trunk/WinFormsUI/Docking/DockPanel.MdiClientController.cs
+END
+DockContent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/dockpanelsuite/!svn/ver/73/trunk/WinFormsUI/Docking/DockContent.cs
+END
+DockPanel.DockDragHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/dockpanelsuite/!svn/ver/73/trunk/WinFormsUI/Docking/DockPanel.DockDragHandler.cs
+END
+DockWindow.SplitterControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/DockWindow.SplitterControl.cs
+END
+VisibleNestedPaneCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/VisibleNestedPaneCollection.cs
+END
+DockPane.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/dockpanelsuite/!svn/ver/114/trunk/WinFormsUI/Docking/DockPane.cs
+END
+DockPanelSkin.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/dockpanelsuite/!svn/ver/114/trunk/WinFormsUI/Docking/DockPanelSkin.cs
+END
+VS2005DockPaneStrip.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/dockpanelsuite/!svn/ver/114/trunk/WinFormsUI/Docking/VS2005DockPaneStrip.cs
+END
+Localization.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/Localization.cs
+END
+Strings.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/dockpanelsuite/!svn/ver/93/trunk/WinFormsUI/Docking/Strings.Designer.cs
+END
+DockPane.SplitterControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/DockPane.SplitterControl.cs
+END
+DummyControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/DummyControl.cs
+END
+FloatWindow.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/dockpanelsuite/!svn/ver/73/trunk/WinFormsUI/Docking/FloatWindow.cs
+END
+DockPanel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/dockpanelsuite/!svn/ver/114/trunk/WinFormsUI/Docking/DockPanel.cs
+END
+DockPaneStripBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/dockpanelsuite/!svn/ver/96/trunk/WinFormsUI/Docking/DockPaneStripBase.cs
+END
+DockAreasEditor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/DockAreasEditor.cs
+END
+VS2005AutoHideStrip.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/dockpanelsuite/!svn/ver/114/trunk/WinFormsUI/Docking/VS2005AutoHideStrip.cs
+END
+Strings.resx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/dockpanelsuite/!svn/ver/73/trunk/WinFormsUI/Docking/Strings.resx
+END
+InertButtonBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/dockpanelsuite/!svn/ver/26/trunk/WinFormsUI/Docking/InertButtonBase.cs
+END
+DockPanel.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/dockpanelsuite/!svn/ver/32/trunk/WinFormsUI/Docking/DockPanel.bmp
+END
+DockPanel.FocusManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/dockpanelsuite/!svn/ver/39/trunk/WinFormsUI/Docking/DockPanel.FocusManager.cs
+END
+DockPanel.DragHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/dockpanelsuite/!svn/ver/2/trunk/WinFormsUI/Docking/DockPanel.DragHandler.cs
+END

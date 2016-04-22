@@ -1,0 +1,8 @@
+D:\Software\Codeproject\PDFViewer\PDFView\PDFView\obj\Debug\ResolveAssemblyReference.cache
+D:\Software\Codeproject\PDFViewer\PDFView\PDFView\obj\Debug\PDFViewer.ExportImageOptions.resources
+D:\Software\Codeproject\PDFViewer\PDFView\PDFView\obj\Debug\PDFViewer.ExportOptions.resources
+D:\Software\Codeproject\PDFViewer\PDFView\PDFView\obj\Debug\PDFViewer.ImportProgress.resources
+D:\Software\Codeproject\PDFViewer\PDFView\PDFView\obj\Debug\PDFViewer.Resources.resources
+D:\Software\Codeproject\PDFViewer\PDFView\PDFView\obj\Debug\PDFViewer.Password.resources
+D:\Software\Codeproject\PDFViewer\PDFView\PDFView\obj\Debug\PDFViewer.PDFViewer.resources
+D:\Software\Codeproject\PDFViewer\PDFView\PDFView\obj\Debug\PDFViewer.vbproj.GenerateResource.Cache

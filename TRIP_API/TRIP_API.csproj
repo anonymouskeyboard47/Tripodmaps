@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B0551FB3-0B35-4BB3-B287-D7B414A906C2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TRIP_API</RootNamespace>
+    <AssemblyName>TRIP_API</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>tripapi.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\NPGSQL\Npgsql2.0.11-bin-mono2.0\Mono2.0\bin\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="policy.2.0.Npgsql, Version=0.0.0.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\NPGSQL\Npgsql2.0.11-bin-mono2.0\Mono2.0\bin\policy.2.0.Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IMEventLog.cs" />
+    <Compile Include="IMDocumentVolumesFolders.cs" />
+    <Compile Include="IMDocumentVolumes.cs" />
+    <Compile Include="IMAppartmentMaster.cs" />
+    <Compile Include="IMAppartmentTypeMaster.cs" />
+    <Compile Include="IMAssetMaintenance.cs" />
+    <Compile Include="IMAssetTypes.cs" />
+    <Compile Include="IMAddress.cs" />
+    <Compile Include="IMBuildingMaster.cs" />
+    <Compile Include="IMBuildingTypes.cs" />
+    <Compile Include="IMBuildingUsage.cs" />
+    <Compile Include="IMDocumentMaster.cs" />
+    <Compile Include="IMDocumentTypes.cs" />
+    <Compile Include="IMFleetDispatch.cs" />
+    <Compile Include="IMCity.cs" />
+    <Compile Include="IMCountries.cs" />
+    <Compile Include="IMCustomer.cs" />
+    <Compile Include="IMLogin.cs" />
+    <Compile Include="IMOrgActivities.cs" />
+    <Compile Include="IMOrganizationCustomer.cs" />
+    <Compile Include="IMOrgTypes.cs" />
+    <Compile Include="IMPlotMaster.cs" />
+    <Compile Include="IMPlotUsage.cs" />
+    <Compile Include="IMPointType.cs" />
+    <Compile Include="IMPointTypesMaster.cs" />
+    <Compile Include="IMPrivateCustomer.cs" />
+    <Compile Include="IMRoadClassMaster.cs" />
+    <Compile Include="IMRoadMaster.cs" />
+    <Compile Include="IMRoomAmenityTypeMaster.cs" />
+    <Compile Include="IMRoomTypeMaster.cs" />
+    <Compile Include="IMUsage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IMTripodsystemsFleetManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tripapi.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Npgsql2.0.11.src\Npgsql2.0.11.src\src\Npgsql2008.csproj">
+      <Project>{9D13B739-62B1-4190-B386-7A9547304EB3}</Project>
+      <Name>Npgsql2008</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

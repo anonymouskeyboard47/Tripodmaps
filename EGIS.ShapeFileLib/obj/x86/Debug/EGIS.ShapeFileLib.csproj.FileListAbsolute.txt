@@ -1,0 +1,6 @@
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.ShapeFileLib\bin\x86\Debug\gdipluslib.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.ShapeFileLib\bin\x86\Debug\EGIS.ShapeFileLib.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.ShapeFileLib\bin\x86\Debug\EGIS.ShapeFileLib.pdb
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.ShapeFileLib\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.ShapeFileLib\obj\x86\Debug\EGIS.ShapeFileLib.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.ShapeFileLib\obj\x86\Debug\EGIS.ShapeFileLib.pdb

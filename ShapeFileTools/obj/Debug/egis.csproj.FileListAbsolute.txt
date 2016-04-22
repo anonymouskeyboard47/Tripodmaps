@@ -1,0 +1,88 @@
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\egis.exe.config
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\gdipluslib.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\egis.exe
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\egis.pdb
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\EGIS.Controls.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\EGIS.ShapeFileLib.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\EGIS.ShapeFileLib.pdb
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\EGIS.ShapeFileLib.xml
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\EGIS.Controls.pdb
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\EGIS.Controls.xml
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.AboutForm.resources
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.LicenceAgreementForm.resources
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.MainForm.resources
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.Properties.Resources.resources
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.RecordAttributesForm.resources
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.csproj.GenerateResource.Cache
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.exe
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.pdb
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.About.resources
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmAssetTypes.resources
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmCustomers.resources
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmAjaxLoading.resources
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmAssetParts.resources
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\Npgsql.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\TRIP_API.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\Mono.Security.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\TRIP_API.pdb
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\Npgsql.pdb
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\Npgsql.xml
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\de\Npgsql.resources.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\es\Npgsql.resources.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\fi\Npgsql.resources.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\fr\Npgsql.resources.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\ja\Npgsql.resources.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmLogin.resources
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmUsageMaster.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\egis.exe.config
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.exe
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\ResolveAssemblyReference.cache
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.About.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.AboutForm.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmAjaxLoading.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmAssetParts.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmAssetTypes.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmCustomers.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmLogin.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmUsageMaster.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.LicenceAgreementForm.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.MainForm.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.Properties.Resources.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.RecordAttributesForm.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.csproj.GenerateResource.Cache
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\gdipluslib.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\egis.exe
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\egis.pdb
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\EGIS.Controls.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\EGIS.ShapeFileLib.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\Npgsql.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\TRIP_API.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\Mono.Security.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\TRIP_API.pdb
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\EGIS.ShapeFileLib.pdb
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\EGIS.ShapeFileLib.xml
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\EGIS.Controls.pdb
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\EGIS.Controls.xml
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\Npgsql.pdb
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\Npgsql.xml
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\de\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\es\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\fi\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\fr\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\ja\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\zh-CN\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.pdb
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmDocumentTypes.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmAddresses.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmBuildings.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmBuildingTypes.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmLandParcels.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmPointOfInterest.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmPointTypesMaster.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmRoomTypeMaster.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmRoomAmenityTypes.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmRoadClass.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\obj\Debug\egis.frmIDTypes.resources
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\ShapeFileTools\bin\Debug\Tripodmaps.exe.config

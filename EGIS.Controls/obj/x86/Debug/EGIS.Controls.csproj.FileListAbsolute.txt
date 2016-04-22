@@ -1,0 +1,12 @@
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.Controls\bin\x86\Debug\gdipluslib.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.Controls\bin\x86\Debug\EGIS.Controls.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.Controls\bin\x86\Debug\EGIS.Controls.pdb
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.Controls\bin\x86\Debug\EGIS.ShapeFileLib.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.Controls\bin\x86\Debug\EGIS.ShapeFileLib.pdb
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.Controls\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.Controls\obj\x86\Debug\EGIS.Controls.Properties.Resources.resources
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.Controls\obj\x86\Debug\EGIS.Controls.SFMap.resources
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.Controls\obj\x86\Debug\EGIS.Controls.ShapeFileListControl.resources
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.Controls\obj\x86\Debug\EGIS.Controls.csproj.GenerateResource.Cache
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.Controls\obj\x86\Debug\EGIS.Controls.dll
+C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EGIS.Controls\obj\x86\Debug\EGIS.Controls.pdb

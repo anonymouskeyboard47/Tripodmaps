@@ -1,0 +1,47 @@
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\TRIP_API\bin\Debug\TRIP_API.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\TRIP_API\bin\Debug\TRIP_API.pdb
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\TRIP_API\bin\Debug\Mono.Security.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\TRIP_API\bin\Debug\Npgsql.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\TRIP_API\bin\Debug\policy.2.0.Npgsql.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\TRIP_API\bin\Debug\Npgsql.pdb
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\TRIP_API\bin\Debug\Npgsql.xml
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\TRIP_API\bin\Debug\de\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\TRIP_API\bin\Debug\es\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\TRIP_API\bin\Debug\fi\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\TRIP_API\bin\Debug\fr\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\TRIP_API\bin\Debug\ja\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\TRIP_API\bin\Debug\zh-CN\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\TRIP_API\bin\Debug\policy.2.0.Npgsql.config
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\TRIP_API\obj\Debug\ResolveAssemblyReference.cache
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\TRIP_API\obj\Debug\TRIP_API.dll
+D:\Software\Development\Tripodmaps\Tripodmaps Simba\TRIP_API\obj\Debug\TRIP_API.pdb
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\TRIP_API\obj\Debug\ResolveAssemblyReference.cache
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\TRIP_API\obj\Debug\TRIP_API.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\TRIP_API\obj\Debug\TRIP_API.pdb
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\TRIP_API\bin\Debug\TRIP_API.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\TRIP_API\bin\Debug\TRIP_API.pdb
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\TRIP_API\bin\Debug\Npgsql.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\TRIP_API\bin\Debug\Npgsql.pdb
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\TRIP_API\bin\Debug\Npgsql.xml
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\TRIP_API\bin\Debug\de\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\TRIP_API\bin\Debug\es\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\TRIP_API\bin\Debug\fi\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\TRIP_API\bin\Debug\fr\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\TRIP_API\bin\Debug\ja\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\TRIP_API\bin\Debug\zh-CN\Npgsql.resources.dll
+D:\Software\Development\Tripodmaps\egghead\exxamplecode\egis_3_2_src\egis_src\TRIP_API\bin\Debug\policy.2.0.Npgsql.config
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\TRIP_API\bin\Debug\TRIP_API.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\TRIP_API\bin\Debug\TRIP_API.pdb
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\TRIP_API\bin\Debug\Npgsql.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\TRIP_API\bin\Debug\Npgsql.pdb
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\TRIP_API\bin\Debug\Npgsql.xml
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\TRIP_API\bin\Debug\de\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\TRIP_API\bin\Debug\es\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\TRIP_API\bin\Debug\fi\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\TRIP_API\bin\Debug\fr\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\TRIP_API\bin\Debug\ja\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\TRIP_API\bin\Debug\zh-CN\Npgsql.resources.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\TRIP_API\bin\Debug\policy.2.0.Npgsql.config
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\TRIP_API\obj\Debug\ResolveAssemblyReference.cache
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\TRIP_API\obj\Debug\TRIP_API.dll
+E:\Software\Development\Tripodmaps\TripodmapsChuiEdition\Source\TRIP_API\obj\Debug\TRIP_API.pdb

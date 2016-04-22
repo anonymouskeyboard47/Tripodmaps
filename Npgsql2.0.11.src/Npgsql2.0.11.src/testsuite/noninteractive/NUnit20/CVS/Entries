@@ -1,0 +1,20 @@
+/.cvsignore/1.1/Sun Dec 21 01:58:01 2008//
+/App.config/1.3/Tue Mar 11 16:59:51 2008//
+/AssemblyInfo.cs/1.1/Sat Jul  7 05:34:30 2007//
+/BaseClassTests.cs/1.3/Fri Mar 14 20:45:40 2008//
+/CommandTests.cs/1.42/Thu Jun 24 05:00:42 2010//
+/ConnectionTests.cs/1.10/Sun Dec 13 03:14:56 2009//
+/DataAdapterTests.cs/1.9/Mon May 31 21:27:22 2010//
+/DataReaderTests.cs/1.14/Mon May 31 21:00:41 2010//
+/NpgsqlParameterTests.cs/1.5/Sat Jul 10 03:01:15 2010//
+/NpgsqlTests.build/1.4/Fri May  2 15:00:43 2008//
+/NpgsqlTests.csproj/1.3/Tue Mar 11 16:59:51 2008//
+/NpgsqlTests.dll.config/1.2/Fri Mar 14 04:44:43 2008//
+/NpgsqlTests.mdp/1.1/Sat Jul  7 05:34:30 2007//
+/NpgsqlTests.mds/1.1/Sat Jul  7 05:34:30 2007//
+/NpgsqlTests2008.csproj/1.6/Sat Jul 10 02:13:16 2010//
+/NpgsqlTests2010.csproj/1.2/Sat Jul 10 02:13:16 2010//
+/PrepareTests.cs/1.2/Fri Mar 14 20:45:40 2008//
+/SystemTransactionsTest.cs/1.4/Wed Dec 10 04:42:05 2008//
+/TypesTests.cs/1.9/Fri Jan  8 02:32:58 2010//
+D

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="EasyGISDesktop">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\James Muricho\My Documents\Downloads\egis_3_2_src\egis_src\EasyGISDesktop.sln">
+</Property><Property Name="Date" Value="22 March 2011">
+</Property><Property Name="Time" Value="12:47">
+</Property></Properties><Event ErrorLevel="0" Project="egis" Source="ShapeFileTools\egis.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="egis" Source="ShapeFileTools\egis.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="EGIS.ShapeFileLib" Source="egis.ShapeFileLib\EGIS.ShapeFileLib.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="EGIS.ShapeFileLib" Source="egis.ShapeFileLib\EGIS.ShapeFileLib.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="EGIS.Controls" Source="egis.controls\EGIS.Controls.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="EGIS.Controls" Source="egis.controls\EGIS.Controls.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="EasyGISDesktop.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="EasyGISDesktop.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="egis" Source="ShapeFileTools\egis.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="EGIS.ShapeFileLib" Source="egis.ShapeFileLib\EGIS.ShapeFileLib.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="EGIS.Controls" Source="egis.controls\EGIS.Controls.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

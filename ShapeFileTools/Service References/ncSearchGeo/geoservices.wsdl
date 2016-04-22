@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://mlbs.net/nacgeoservices/geoservices" xmlns:s1="http://s.mappoint.net/mappoint-30/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://mlbs.net/nacgeoservices/geoservices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://mlbs.net/nacgeoservices/geoservices">
+      <s:import namespace="http://s.mappoint.net/mappoint-30/" />
+      <s:element name="geocode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UserID" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="Address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Street" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="POI" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="State" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ZIP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SuppressError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="geocodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="geocodeResult" type="tns:geocoderesult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="geocoderesult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Input" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Longitude" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Latitude" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="NAC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Matchtype" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Matchaccuracy" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Street" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="State" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ZIP" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Country" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Alternatives" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getlocationinfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UserID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="Longitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Latitude" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getlocationinfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getlocationinfoResult" type="tns:locationinfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="locationinfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Longitude" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Latitude" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Addresses" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Places" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getmap">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UserID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="Longitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Latitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Northing" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Easting" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageWidth" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageHeight" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Datasourc" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="OverviewFlag" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Icon" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MapStyle" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Objects" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getmapResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getmapResult" type="tns:mapinfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="mapinfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Longitude" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Latitude" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Northing" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Easting" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="ImageWidth" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ImageHeight" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Datasource" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="OverviewFlag" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Icon" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MapStyle" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Hotspots" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Map" type="tns:ImageData" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ImageData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="bits" type="s:base64Binary" />
+          <s:element minOccurs="0" maxOccurs="1" name="type" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getmapEx">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UserID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="Longitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Latitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Northing" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Easting" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageWidth" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageHeight" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="ImageFormat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Datasourc" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="OverviewFlag" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Icon" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MapStyle" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Objects" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getmapExResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getmapExResult" type="tns:mapinfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getmapbybr">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UserID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="SouthwestLongitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="SouthwestLatitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="NortheastLongitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="NortheastLatitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageWidth" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageHeight" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="OverviewFlag" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="Datasourc" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Icon" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MapStyle" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Objects" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getmapbybrResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getmapbybrResult" type="tns:mapbybr" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="mapbybr">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SouthwestLongitude" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="SouthwestLatitude" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="NortheastLongitude" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="NortheastLatitude" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="ImageWidth" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ImageHeight" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Datasource" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="OverviewFlag" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Icon" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MapStyle" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Hotspots" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Map" type="tns:ImageData" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getmapbybrEx">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UserID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="SouthwestLongitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="SouthwestLatitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="NortheastLongitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="NortheastLatitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageWidth" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageHeight" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="ImageFormat" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="OverviewFlag" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="Datasourc" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Icon" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MapStyle" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Objects" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getmapbybrExResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getmapbybrExResult" type="tns:mapbybr" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="search">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UserID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="Longitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Latitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Radius" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="Category" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Data_Source" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ShowMap" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageWidth" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageHeight" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="searchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="searchResult" type="tns:searchresult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="searchresult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Longitude" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Latitude" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Radius" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="Category" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Data_Source" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Entities" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ShowMap" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Hotspots" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ImageWidth" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ImageHeight" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Map" type="tns:ImageData" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="searchEx">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UserID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="Longitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Latitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Radius" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="Category" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Data_Source" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ShowMap" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageWidth" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageHeight" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="ImageFormat" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="searchExResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="searchExResult" type="tns:searchresult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="gettrafficinfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UserID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="Longitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Latitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Radius" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ShowMap" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageWidth" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageHeight" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="gettrafficinfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gettrafficinfoResult" type="tns:trafficinfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="trafficinfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Longitude" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Latitude" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Radius" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Incidents" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ShowMap" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Hotspots" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ImageWidth" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ImageHeight" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Map" type="tns:ImageData" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="gettrafficinfoEx">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UserID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="Longitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Latitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="Radius" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ShowMap" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageWidth" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageHeight" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="ImageFormat" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="gettrafficinfoExResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gettrafficinfoExResult" type="tns:trafficinfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getdirections">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UserID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="StartLongitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="StartLatitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="EndLongitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="EndLatitude" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="Criterion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Distance_Unit" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ShowMap" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageWidth" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageHeight" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ShowWaypoints" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getdirectionsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getdirectionsResult" type="tns:directionsinfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="directionsinfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="StartLongitude" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="StartLatitude" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="EndLongitude" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="EndLatitude" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="Criterion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Distance_Unit" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Distance" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="DrivingTime" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="Directions" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ShowMap" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Map" type="tns:ImageData" />
+          <s:element minOccurs="1" maxOccurs="1" name="ShowWaypoints" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Waypoints" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getdirectionsEx">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UserID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="StartLongitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="StartLatitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="EndLongitude" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="EndLatitude" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="Criterion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Distance_Unit" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ShowMap" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageWidth" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageHeight" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="ImageFormat" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ShowWaypoints" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getdirectionsExResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getdirectionsExResult" type="tns:directionsinfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getdirectionsmp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UserID" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="MPoints" type="s1:ArrayOfLatLong" />
+            <s:element minOccurs="0" maxOccurs="1" name="Criterion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Distance_Unit" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ShowMap" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageWidth" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageHeight" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ShowWaypoints" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LatLong" nillable="true" type="s1:LatLong" />
+      <s:element name="getdirectionsmpResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getdirectionsmpResult" type="tns:mpdirectionsinfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="mpdirectionsinfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="MPoints" type="s1:ArrayOfLatLong" />
+          <s:element minOccurs="0" maxOccurs="1" name="Criterion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Distance_Unit" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Distance" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="DrivingTime" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="Directions" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ShowMap" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Map" type="tns:ImageData" />
+          <s:element minOccurs="1" maxOccurs="1" name="ShowWaypoints" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Waypoints" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getdirectionsmpEx">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UserID" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="MPoints" type="s1:ArrayOfLatLong" />
+            <s:element minOccurs="0" maxOccurs="1" name="Criterion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Distance_Unit" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ShowMap" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageWidth" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ImageHeight" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="ImageFormat" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ShowWaypoints" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getdirectionsmpExResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getdirectionsmpExResult" type="tns:mpdirectionsinfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://s.mappoint.net/mappoint-30/">
+      <s:import namespace="http://mlbs.net/nacgeoservices/geoservices" />
+      <s:complexType name="ArrayOfLatLong">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" ref="tns:LatLong" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="LatLong">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" default="0" name="Latitude" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" default="0" name="Longitude" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="geocodeSoapIn">
+    <wsdl:part name="parameters" element="tns:geocode" />
+  </wsdl:message>
+  <wsdl:message name="geocodeSoapOut">
+    <wsdl:part name="parameters" element="tns:geocodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="getlocationinfoSoapIn">
+    <wsdl:part name="parameters" element="tns:getlocationinfo" />
+  </wsdl:message>
+  <wsdl:message name="getlocationinfoSoapOut">
+    <wsdl:part name="parameters" element="tns:getlocationinfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getmapSoapIn">
+    <wsdl:part name="parameters" element="tns:getmap" />
+  </wsdl:message>
+  <wsdl:message name="getmapSoapOut">
+    <wsdl:part name="parameters" element="tns:getmapResponse" />
+  </wsdl:message>
+  <wsdl:message name="getmapExSoapIn">
+    <wsdl:part name="parameters" element="tns:getmapEx" />
+  </wsdl:message>
+  <wsdl:message name="getmapExSoapOut">
+    <wsdl:part name="parameters" element="tns:getmapExResponse" />
+  </wsdl:message>
+  <wsdl:message name="getmapbybrSoapIn">
+    <wsdl:part name="parameters" element="tns:getmapbybr" />
+  </wsdl:message>
+  <wsdl:message name="getmapbybrSoapOut">
+    <wsdl:part name="parameters" element="tns:getmapbybrResponse" />
+  </wsdl:message>
+  <wsdl:message name="getmapbybrExSoapIn">
+    <wsdl:part name="parameters" element="tns:getmapbybrEx" />
+  </wsdl:message>
+  <wsdl:message name="getmapbybrExSoapOut">
+    <wsdl:part name="parameters" element="tns:getmapbybrExResponse" />
+  </wsdl:message>
+  <wsdl:message name="searchSoapIn">
+    <wsdl:part name="parameters" element="tns:search" />
+  </wsdl:message>
+  <wsdl:message name="searchSoapOut">
+    <wsdl:part name="parameters" element="tns:searchResponse" />
+  </wsdl:message>
+  <wsdl:message name="searchExSoapIn">
+    <wsdl:part name="parameters" element="tns:searchEx" />
+  </wsdl:message>
+  <wsdl:message name="searchExSoapOut">
+    <wsdl:part name="parameters" element="tns:searchExResponse" />
+  </wsdl:message>
+  <wsdl:message name="gettrafficinfoSoapIn">
+    <wsdl:part name="parameters" element="tns:gettrafficinfo" />
+  </wsdl:message>
+  <wsdl:message name="gettrafficinfoSoapOut">
+    <wsdl:part name="parameters" element="tns:gettrafficinfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="gettrafficinfoExSoapIn">
+    <wsdl:part name="parameters" element="tns:gettrafficinfoEx" />
+  </wsdl:message>
+  <wsdl:message name="gettrafficinfoExSoapOut">
+    <wsdl:part name="parameters" element="tns:gettrafficinfoExResponse" />
+  </wsdl:message>
+  <wsdl:message name="getdirectionsSoapIn">
+    <wsdl:part name="parameters" element="tns:getdirections" />
+  </wsdl:message>
+  <wsdl:message name="getdirectionsSoapOut">
+    <wsdl:part name="parameters" element="tns:getdirectionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getdirectionsExSoapIn">
+    <wsdl:part name="parameters" element="tns:getdirectionsEx" />
+  </wsdl:message>
+  <wsdl:message name="getdirectionsExSoapOut">
+    <wsdl:part name="parameters" element="tns:getdirectionsExResponse" />
+  </wsdl:message>
+  <wsdl:message name="getdirectionsmpSoapIn">
+    <wsdl:part name="parameters" element="tns:getdirectionsmp" />
+  </wsdl:message>
+  <wsdl:message name="getdirectionsmpSoapOut">
+    <wsdl:part name="parameters" element="tns:getdirectionsmpResponse" />
+  </wsdl:message>
+  <wsdl:message name="getdirectionsmpExSoapIn">
+    <wsdl:part name="parameters" element="tns:getdirectionsmpEx" />
+  </wsdl:message>
+  <wsdl:message name="getdirectionsmpExSoapOut">
+    <wsdl:part name="parameters" element="tns:getdirectionsmpExResponse" />
+  </wsdl:message>
+  <wsdl:portType name="geoservicesSoap">
+    <wsdl:operation name="geocode">
+      <wsdl:input message="tns:geocodeSoapIn" />
+      <wsdl:output message="tns:geocodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getlocationinfo">
+      <wsdl:input message="tns:getlocationinfoSoapIn" />
+      <wsdl:output message="tns:getlocationinfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getmap">
+      <wsdl:input message="tns:getmapSoapIn" />
+      <wsdl:output message="tns:getmapSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getmapEx">
+      <wsdl:input message="tns:getmapExSoapIn" />
+      <wsdl:output message="tns:getmapExSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getmapbybr">
+      <wsdl:input message="tns:getmapbybrSoapIn" />
+      <wsdl:output message="tns:getmapbybrSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getmapbybrEx">
+      <wsdl:input message="tns:getmapbybrExSoapIn" />
+      <wsdl:output message="tns:getmapbybrExSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="search">
+      <wsdl:input message="tns:searchSoapIn" />
+      <wsdl:output message="tns:searchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="searchEx">
+      <wsdl:input message="tns:searchExSoapIn" />
+      <wsdl:output message="tns:searchExSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="gettrafficinfo">
+      <wsdl:input message="tns:gettrafficinfoSoapIn" />
+      <wsdl:output message="tns:gettrafficinfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="gettrafficinfoEx">
+      <wsdl:input message="tns:gettrafficinfoExSoapIn" />
+      <wsdl:output message="tns:gettrafficinfoExSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getdirections">
+      <wsdl:input message="tns:getdirectionsSoapIn" />
+      <wsdl:output message="tns:getdirectionsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getdirectionsEx">
+      <wsdl:input message="tns:getdirectionsExSoapIn" />
+      <wsdl:output message="tns:getdirectionsExSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getdirectionsmp">
+      <wsdl:input message="tns:getdirectionsmpSoapIn" />
+      <wsdl:output message="tns:getdirectionsmpSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getdirectionsmpEx">
+      <wsdl:input message="tns:getdirectionsmpExSoapIn" />
+      <wsdl:output message="tns:getdirectionsmpExSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="geoservicesSoap" type="tns:geoservicesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="geocode">
+      <soap:operation soapAction="http://mlbs.net/nacgeoservices/geoservices/geocode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getlocationinfo">
+      <soap:operation soapAction="http://mlbs.net/nacgeoservices/geoservices/getlocationinfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getmap">
+      <soap:operation soapAction="http://mlbs.net/nacgeoservices/geoservices/getmap" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getmapEx">
+      <soap:operation soapAction="http://mlbs.net/nacgeoservices/geoservices/getmapEx" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getmapbybr">
+      <soap:operation soapAction="http://mlbs.net/nacgeoservices/geoservices/getmapbybr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getmapbybrEx">
+      <soap:operation soapAction="http://mlbs.net/nacgeoservices/geoservices/getmapbybrEx" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="search">
+      <soap:operation soapAction="http://mlbs.net/nacgeoservices/geoservices/search" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="searchEx">
+      <soap:operation soapAction="http://mlbs.net/nacgeoservices/geoservices/searchEx" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gettrafficinfo">
+      <soap:operation soapAction="http://mlbs.net/nacgeoservices/geoservices/gettrafficinfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gettrafficinfoEx">
+      <soap:operation soapAction="http://mlbs.net/nacgeoservices/geoservices/gettrafficinfoEx" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getdirections">
+      <soap:operation soapAction="http://mlbs.net/nacgeoservices/geoservices/getdirections" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getdirectionsEx">
+      <soap:operation soapAction="http://mlbs.net/nacgeoservices/geoservices/getdirectionsEx" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getdirectionsmp">
+      <soap:operation soapAction="http://mlbs.net/nacgeoservices/geoservices/getdirectionsmp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getdirectionsmpEx">
+      <soap:operation soapAction="http://mlbs.net/nacgeoservices/geoservices/getdirectionsmpEx" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="geoservices">
+    <wsdl:port name="geoservicesSoap" binding="tns:geoservicesSoap">
+      <soap:address location="http://mlbs.net/nacgeoservices/geoservices.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
