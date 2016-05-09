@@ -9,6 +9,7 @@ The main differences between the two editions is that the .NET controller for di
 
 
 ... not finished.
-..PLOTS shapefile needs to be added
+
+..upload of PLOTS shapefiles - needs to be tested before upload
 
 
